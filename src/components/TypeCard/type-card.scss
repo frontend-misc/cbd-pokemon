@@ -1,0 +1,100 @@
+.type-card {
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
+  //justify-content: left;
+  height: 72px;
+  width: calc(100% / 8);
+  padding: 1rem;
+  background-color: var(--primary-bg-color);
+  border-radius: 5px;
+  margin-left: 14px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .image {
+    width: 36px;
+    height: 36px;
+  }
+
+  .type {
+    font-size: 0.8rem;
+    color: #8b8bab;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  &__body {
+    text-align: right;
+
+    .number {
+      font-size: 1.2rem;
+      font-weight: bolder;
+    }
+  }
+}
+
+.unit {
+  font-size: 0.8rem;
+}
+
+.normal-type-color {
+  color: var(--normal-type-color);
+}
+
+.fighting-type-color {
+  color: var(--fighting-type-color);
+}
+.flying-type-color {
+  color: var(--flying-type-color);
+}
+.poison-type-color {
+  color: var(--poison-type-color);
+}
+.ground-type-color {
+  color: var(--ground-type-color);
+}
+.rock-type-color {
+  color: var(--rock-type-color);
+}
+.bug-type-color {
+  color: var(--bug-type-color);
+}
+.ghost-type-color {
+  color: var(--ghost-type-color);
+}
+.steel-type-color {
+  color: var(--steel-type-color);
+}
+.fire-type-color {
+  color: var(--fire-type-color);
+}
+.water-type-color {
+  color: var(--water-type-color);
+}
+.grass-type-color {
+  color: var(--grass-type-color);
+}
+.electric-type-color {
+  color: var(--electric-type-color);
+}
+.psychic-type-color {
+  color: var(--psychic-type-color);
+}
+.ice-type-color {
+  color: var(--ice-type-color);
+}
+.dragon-type-color {
+  color: var(--dragon-type-color);
+}
+.dark-type-color {
+  color: var(--dark-type-color);
+}
+.fairy-type-color {
+  color: var(--fairy-type-color);
+}
