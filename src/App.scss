@@ -1,0 +1,139 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f1f1f1;
+
+  --normal-type-color: #a8a77a;
+  --fighting-type-color: #e0306d;
+  --flying-type-color: #a98ff3;
+  --poison-type-color: #a33ea1;
+  --ground-type-color: #e2bf65;
+  --rock-type-color: #b6a136;
+  --bug-type-color: #a6b91a;
+  --ghost-type-color: #735797;
+  --steel-type-color: #b7b7ce;
+  --fire-type-color: #ee8130;
+  --water-type-color: #6390f0;
+  --grass-type-color: #7ac74c;
+  --electric-type-color: #f7d02c;
+  --psychic-type-color: #f95587;
+  --ice-type-color: #96d9d6;
+  --dragon-type-color: #6f35fc;
+  --dark-type-color: #705746;
+  --fairy-type-color: #d685ad;
+
+  --normal-type-bg-color: #f5f5f5;
+  --fighting-type-bg-color: #ffddd9;
+  --flying-type-bg-color: #e0d4ff;
+  --poison-type-bg-color: #f2d6f7;
+  --ground-type-bg-color: #fdf2d5;
+  --rock-type-bg-color: #f2e6d5;
+  --bug-type-bg-color: #f2f9d5;
+  --ghost-type-bg-color: #e6d5f2;
+  --steel-type-bg-color: #e6e6f2;
+  --fire-type-bg-color: #fdefef;
+  --water-type-bg-color: #d2f0ff;
+  --grass-type-bg-color: #f1fdef;
+  --electric-type-bg-color: #fdfdef;
+  --psychic-type-bg-color: #fde6f0;
+  --ice-type-bg-color: #dff2f2;
+  --dragon-type-bg-color: #efeffd;
+  --dark-type-bg-color: #e6d5d2;
+  --fairy-type-bg-color: #fde6f2;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html,
+body,
+#root,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Work sans', Helvetica, Arial, sans-serif;
+  background-color: var(--primary-bg-color);
+}
+
+body {
+  height: 100%;
+}
+
+.type-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  position: relative;
+  padding: 5px;
+
+  img {
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+}
+
+.normal-type-bg-color {
+  background-color: var(--normal-type-bg-color);
+}
+
+.fighting-type-bg-color {
+  background-color: var(--fighting-type-bg-color);
+}
+.flying-type-bg-color {
+  background-color: var(--flying-type-bg-color);
+}
+.poison-type-bg-color {
+  background-color: var(--poison-type-bg-color);
+}
+.ground-type-bg-color {
+  background-color: var(--ground-type-bg-color);
+}
+.rock-type-bg-color {
+  background-color: var(--rock-type-bg-color);
+}
+.bug-type-bg-color {
+  background-color: var(--bug-type-bg-color);
+}
+.ghost-type-bg-color {
+  background-color: var(--ghost-type-bg-color);
+}
+.steel-type-bg-color {
+  background-color: var(--steel-type-bg-color);
+}
+.fire-type-bg-color {
+  background-color: var(--fire-type-bg-color);
+}
+.water-type-bg-color {
+  background-color: var(--water-type-bg-color);
+}
+.grass-type-bg-color {
+  background-color: var(--grass-type-bg-color);
+}
+.electric-type-bg-color {
+  background-color: var(--electric-type-bg-color);
+}
+.psychic-type-bg-color {
+  background-color: var(--psychic-type-bg-color);
+}
+.ice-type-bg-color {
+  background-color: var(--ice-type-bg-color);
+}
+.dragon-type-bg-color {
+  background-color: var(--dragon-type-bg-color);
+}
+.dark-type-bg-color {
+  background-color: var(--dark-type-bg-color);
+}
+.fairy-type-bg-color {
+  background-color: var(--fairy-type-bg-color);
+}

@@ -1,0 +1,16 @@
+.search-bar {
+  margin: 1rem 0;
+  padding: 11px 17px;
+  width: 25%;
+
+  &__input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 16px;
+    border: none;
+    font-size: 1rem;
+    background: url('../../assets/icons/magnifying-glass.svg') no-repeat var(--primary-bg-color)
+      right 0.5rem center;
+    background-size: 1rem;
+  }
+}

@@ -1,0 +1,36 @@
+.pokemon-list {
+  border-collapse: collapse;
+  background-color: var(--primary-bg-color);
+  width: 100%;
+  border-radius: 11px;
+
+  &__thead__tr__th {
+    color: #838383c7;
+    text-align: left;
+  }
+
+  &__thead__tr {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  &__thead__tr__th,
+  .pokemon-list-tr__td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ecf1f4;
+  }
+
+  .pokemon-list-tr {
+    height: 44px;
+    padding: 10px;
+  }
+
+  .pokemon-type-image {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+}

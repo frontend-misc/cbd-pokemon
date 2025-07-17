@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 1.5rem 0;
+  gap: 0.3rem;
+
+  button,
+  .dots {
+    padding: 0.4rem 0.8rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: #838383c7;
+
+    &.active {
+      font-size: 12px;
+      font-weight: 400;
+      background-color: #ffc4333d;
+      color: #d56200;
+      border-radius: 67px;
+      padding: 10px;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  .dots {
+    background: transparent;
+    border: none;
+    cursor: default;
+    color: #999;
+  }
+}

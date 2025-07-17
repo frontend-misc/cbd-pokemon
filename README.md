@@ -1,36 +1,31 @@
 # Rsbuild project
 
-## Setup
+## Objectifs
+- [x] Moteur de recherche
+- [x] Affichage dynamique des Pokémons
+- [x] Pagination
 
-Install the dependencies:
-
+## Installation
 ```bash
-pnpm install
+npm install
 ```
 
-## Get started
-
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
-
+### Lancement du projet
+Lancer le serveur, disponible sur [http://localhost:3000](http://localhost:3000)
 ```bash
-pnpm dev
+npm run dev
+```
+ou
+```bash
+npm run start
 ```
 
-Build the app for production:
-
+Compilez le projet pour la production:
 ```bash
-pnpm build
+npm run build
 ```
 
-Preview the production build locally:
-
+Prévisualisez le projet compilé en local :
 ```bash
-pnpm preview
+npm run preview
 ```
-
-## Learn more
-
-To learn more about Rsbuild, check out the following resources:
-
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
