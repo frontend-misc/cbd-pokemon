@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev",
+    "start": "rsbuild dev",
     "format:check": "prettier --check ./src/**/*.{ts,tsx,scss}",
     "format:fix": "prettier --write ./src/**/*.{ts,tsx,scss}",
     "lint:check": "eslint ./src --ext .ts,.tsx",
